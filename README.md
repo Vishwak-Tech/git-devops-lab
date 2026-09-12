@@ -3,3 +3,4 @@ Git fundamentals
 Login feature
 Main update
 Profile feature
+Notifications feature
