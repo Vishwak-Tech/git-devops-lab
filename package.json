@@ -4,7 +4,8 @@
   "description": "Git fundamentals Login feature Main update Profile feature Notifications feature",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/Vishwak-Tech/git-devops-lab#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0",
     "jest": "^30.5.1"
   }
 }
