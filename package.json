@@ -1,0 +1,24 @@
+{
+  "name": "git-devops-lab",
+  "version": "1.0.0",
+  "description": "Git fundamentals Login feature Main update Profile feature Notifications feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishwak-Tech/git-devops-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vishwak-Tech/git-devops-lab/issues"
+  },
+  "homepage": "https://github.com/Vishwak-Tech/git-devops-lab#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
