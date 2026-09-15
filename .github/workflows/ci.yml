@@ -18,7 +18,9 @@ jobs:
         with:
           node-version: 24
 
-      - run: npm install
+      - run: npm ci
       - run: npm run lint
       - run: npm test
       - run: npm run build
+      - name: Build Docker image
+        run: docker build -t git-devops-lab:${{ github.sha }} .
